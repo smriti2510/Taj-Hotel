@@ -1,0 +1,32 @@
+body{
+  justify-content: center;
+  align-items: center;
+  background:rgb(173, 172, 172);
+}
+.container1{
+  position: relative;
+  width: 1367px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  padding: 10px;
+}
+.container1 .cont1,.cont2,.cont3,.cont4,.cont5{
+  position: relative;
+  height:200px;
+  width:400px;
+  background:whitesmoke;
+  padding:20px 15px;
+  margin:30px 10px;
+  justify-content: center;
+  margin-left: 100px;
+  display:flex;
+  flex-direction: row;
+ box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+.container1 .cont .content h2{
+position: relative;
+margin:auto;
+padding:10px;
+color: #111;
+}
